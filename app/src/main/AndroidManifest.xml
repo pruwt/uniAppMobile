@@ -13,6 +13,15 @@
         android:theme="@style/Theme.UniApp"
         tools:targetApi="34">
         <activity
+            android:name=".StudentSummary"
+            android:exported="false" />
+        <activity
+            android:name=".AddGrades"
+            android:exported="false" />
+        <activity
+            android:name=".StudentGrades"
+            android:exported="false" />
+        <activity
             android:name=".LecturerHome"
             android:exported="true">
             <intent-filter>
