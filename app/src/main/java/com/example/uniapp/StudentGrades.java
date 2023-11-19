@@ -7,12 +7,18 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.firebase.firestore.FirebaseFirestore;
+
 public class StudentGrades extends AppCompatActivity {
 Button gradesbtn,homebtn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_student_grades);
+//init the db
+        FirebaseFirestore db = FirebaseFirestore.getInstance().collection("grades").getFirestore();
+
+
 
         gradesbtn = findViewById(R.id.gradesbtn);
         homebtn = findViewById(R.id.homebtn);

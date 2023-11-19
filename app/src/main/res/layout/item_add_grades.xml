@@ -1,70 +1,75 @@
-<!-- item_add_grades.xml -->
-
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp">
 
-    <!-- Student Information -->
     <TextView
-        android:id="@+id/studentInfoTextView"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Student Name: John Doe\nStudent ID: 12345"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        android:gravity="center"/>
+        android:text="Assignment 1"/>
 
-    <!-- Assignment Scores -->
     <EditText
         android:id="@+id/assignment1EditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Assignment 1 Score"
-        android:inputType="numberDecimal"/>
+        android:hint="Enter grade"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Assignment 2"/>
 
     <EditText
         android:id="@+id/assignment2EditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Assignment 2 Score"
-        android:inputType="numberDecimal"/>
+        android:hint="Enter grade"/>
 
-    <!-- CAT Scores -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CAT1"/>
+
     <EditText
         android:id="@+id/cat1EditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="CAT 1 Score"
-        android:inputType="numberDecimal"/>
+        android:hint="Enter grade"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CAT2"/>
 
     <EditText
-        android:id="@+id/cat2EditText"
+        android:id="@+id/cat2EdiText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="CAT 2 Score"
-        android:inputType="numberDecimal"/>
+        android:hint="Enter grade"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exam"/>
 
-    <!-- Exam Score -->
     <EditText
-        android:id="@+id/examEditText"
+        android:id="@+id/examEdiText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Exam Score"
-        android:inputType="numberDecimal"/>
+        android:hint="Enter grade"/>
 
-    <!-- Save Button -->
+
+    <!-- Repeat the above for Assignment 2, CAT1, CAT2, Exam -->
+
     <Button
-        android:id="@+id/saveButton"
+        android:id="@+id/saveGradesButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Save Grades"/>
 
     <Button
-        android:id="@+id/homelec"
-        android:layout_width="match_parent"
+        android:id="@+id/homebtn"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Home" />
+        android:text="home"/>
 </LinearLayout>
