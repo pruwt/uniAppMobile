@@ -6,7 +6,6 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <!-- Display student name -->
     <TextView
         android:id="@+id/studentNameTextView"
         android:layout_width="wrap_content"
@@ -15,50 +14,46 @@
         android:textSize="16sp"
         android:textStyle="bold"/>
 
-    <!-- Display assignment 1 score -->
     <TextView
         android:id="@+id/assignment1TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Assignment 1: 85"/>
 
-    <!-- Display assignment 2 score -->
     <TextView
         android:id="@+id/assignment2TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Assignment 2: 90"/>
+        android:text="Assignment 2: 85"/>
 
     <TextView
         android:id="@+id/cat1TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CAT1: 90"/>
+        android:text="cat1: 85"/>
 
     <TextView
         android:id="@+id/cat2TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CAT2: 90"/>
+        android:text="cat2"/>
 
     <TextView
-        android:id="@+id/examTextView"
+        android:id="@+id/exam1TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Exam: 90"/>
-
+        android:text="Exam: 85"/>
     <TextView
-        android:id="@+id/meanTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Mean: 90"/>
-
-
-
-    <TextView
-        android:id="@+id/recTextView"
+        android:id="@+id/recoTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Recommendation: Pass"/>
 
+    <!-- Repeat the above for Assignment 2, CAT1, CAT2, Exam, Mean, Recommendation -->
+    <Button
+        android:id="@+id/homebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="home"/>
 </LinearLayout>
+

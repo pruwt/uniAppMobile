@@ -1,0 +1,24 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Display the course name -->
+    <TextView
+        android:id="@+id/courseNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course: Computer Science 101"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <!-- List of enrolled students -->
+    <ListView
+        android:id="@+id/studentListView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
