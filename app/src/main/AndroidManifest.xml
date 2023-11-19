@@ -13,6 +13,9 @@
         android:theme="@style/Theme.UniApp"
         tools:targetApi="34">
         <activity
+            android:name=".MainActivity4"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity3"
             android:exported="false" />
         <activity
