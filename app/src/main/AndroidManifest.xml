@@ -13,6 +13,12 @@
         android:theme="@style/Theme.UniApp"
         tools:targetApi="34">
         <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".ViewStudents"
             android:exported="false" />
         <activity
