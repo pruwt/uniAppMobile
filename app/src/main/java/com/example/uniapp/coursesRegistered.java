@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
-public class MainActivity5 extends AppCompatActivity {
+public class coursesRegistered extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

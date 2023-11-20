@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/background_light"
-    tools:context=".MainActivity3">
+    tools:context=".registerationDashboard">
 
     <TextView
         android:id="@+id/textView2"
@@ -34,7 +34,7 @@
         android:layout_marginTop="16dp" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/register1btn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Register"
@@ -56,13 +56,13 @@
         android:text="IST4030"
         android:textSize="20sp"
         android:textColor="@android:color/black"
-        app:layout_constraintTop_toBottomOf="@+id/button5"
+        app:layout_constraintTop_toBottomOf="@+id/register1btn"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="16dp" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/register2btn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Register"
@@ -84,13 +84,13 @@
         android:text="IST4020"
         android:textSize="20sp"
         android:textColor="@android:color/black"
-        app:layout_constraintTop_toBottomOf="@+id/button6"
+        app:layout_constraintTop_toBottomOf="@+id/register2btn"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="16dp" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/register3btn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Register"
@@ -112,13 +112,13 @@
         android:text="APP4070"
         android:textSize="20sp"
         android:textColor="@android:color/black"
-        app:layout_constraintTop_toBottomOf="@+id/button7"
+        app:layout_constraintTop_toBottomOf="@+id/register3btn"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="16dp" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/register4btn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Register"
@@ -140,13 +140,13 @@
         android:text="IST4075"
         android:textSize="20sp"
         android:textColor="@android:color/black"
-        app:layout_constraintTop_toBottomOf="@+id/button8"
+        app:layout_constraintTop_toBottomOf="@+id/register4btn"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="16dp" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/register5btn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -160,11 +160,13 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:layout_constraintVertical_bias="0.063" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/home1btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -179,5 +181,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button9" />
+        app:layout_constraintTop_toBottomOf="@+id/register5btn" />
 </androidx.constraintlayout.widget.ConstraintLayout>

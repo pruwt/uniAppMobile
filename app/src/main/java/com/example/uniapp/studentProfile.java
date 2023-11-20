@@ -9,7 +9,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
 
-public class MainActivity4 extends AppCompatActivity {
+public class studentProfile extends AppCompatActivity {
     Button buttonSave, buttonHome;
 
     @Override
@@ -24,7 +24,7 @@ public class MainActivity4 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Navigate back to the login page (MainActivity)
-                Intent intent = new Intent(getApplicationContext(), MainActivity2.class);
+                Intent intent = new Intent(getApplicationContext(), studentDashboard.class);
                 startActivity(intent);
                 // Finish the current activity to prevent going back to MainActivity2 when pressing the back button
                 finish();

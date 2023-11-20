@@ -14,7 +14,7 @@ public class MainActivity6 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main6);
+        setContentView(R.layout.activity_registration_courses);
         button11 = findViewById(R.id.button11);
 
         button11.setOnClickListener(new View.OnClickListener() {

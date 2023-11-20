@@ -57,7 +57,7 @@ public class studentDashboard extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Navigate back to the login page (MainActivity)
-                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                Intent intent = new Intent(getApplicationContext(), MainDashboard.class);
                 startActivity(intent);
                 // Finish the current activity to prevent going back to MainActivity2 when pressing the back button
                 finish();
