@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/background_light"
-    tools:context=".MainActivity2">
+    tools:context=".studentDashboard">
 
 
     <ScrollView
@@ -31,7 +31,7 @@
                 android:textStyle="bold"/>
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/registrationbtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Course Registration"
@@ -43,7 +43,7 @@
                 android:radius="12dp"/>
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/registeredbtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Registered Courses"
@@ -55,7 +55,7 @@
                 android:radius="12dp"/>
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/profilebtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Profile"
@@ -67,7 +67,7 @@
                 android:radius="12dp"/>
 
             <Button
-                android:id="@+id/buttonReport"
+                android:id="@+id/reportbtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Report"
@@ -79,7 +79,7 @@
                 android:radius="12dp"/>
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/logoutbtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Logout"
