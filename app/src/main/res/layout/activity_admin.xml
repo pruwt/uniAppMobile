@@ -6,8 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/background_light"
-    tools:context=".MainActivity2">
-
+    tools:context=".adminDashboard">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -21,20 +20,20 @@
             android:padding="24dp">
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/adminTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Welcome Student"
+                android:text="Welcome Admin"
                 android:textSize="28sp"
                 android:layout_gravity="center"
                 android:layout_marginBottom="32dp"
                 android:textStyle="bold"/>
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/btnRegister"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Course Registration"
+                android:text="Register Courses"
                 android:layout_marginBottom="16dp"
                 android:backgroundTint="#1976D2"
                 android:textColor="@android:color/white"
@@ -43,10 +42,10 @@
                 android:radius="12dp"/>
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/btnScores"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Registered Courses"
+                android:text="Enter Scores"
                 android:layout_marginBottom="16dp"
                 android:backgroundTint="#1976D2"
                 android:textColor="@android:color/white"
@@ -55,10 +54,10 @@
                 android:radius="12dp"/>
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/btnReports"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Profile"
+                android:text="Generate Reports"
                 android:layout_marginBottom="16dp"
                 android:backgroundTint="#1976D2"
                 android:textColor="@android:color/white"
@@ -67,10 +66,10 @@
                 android:radius="12dp"/>
 
             <Button
-                android:id="@+id/buttonReport"
+                android:id="@+id/btnSummary"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Report"
+                android:text="Course Summary"
                 android:layout_marginBottom="16dp"
                 android:backgroundTint="#1976D2"
                 android:textColor="@android:color/white"
@@ -79,7 +78,7 @@
                 android:radius="12dp"/>
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/btnLogout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Logout"

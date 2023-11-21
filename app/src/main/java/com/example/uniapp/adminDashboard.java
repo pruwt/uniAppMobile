@@ -8,14 +8,14 @@ import android.widget.Button;
 
 import android.os.Bundle;
 
-public class MainActivity7 extends AppCompatActivity {
+public class adminDashboard extends AppCompatActivity {
 
     Button btnRegister, btnSummary, btnLogout, btnReports, btnScores;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main7);
+        setContentView(R.layout.activity_student_profile);
 
         btnRegister = findViewById(R.id.btnRegister);
         btnSummary = findViewById(R.id.btnSummary);
@@ -26,7 +26,7 @@ public class MainActivity7 extends AppCompatActivity {
         btnLogout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                Intent intent = new Intent(getApplicationContext(),MainDashboard.class);
                 startActivity(intent);
                 // Finish the current activity to prevent going back to MainActivity2 when pressing the back button
                 finish();

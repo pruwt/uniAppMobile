@@ -6,12 +6,12 @@ import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
-public class MainActivity5 extends AppCompatActivity {
+public class coursesRegistered extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main5);
+        setContentView(R.layout.activity_student_dashboard);
 
         // Get a reference to the Spinner
         Spinner semesterSpinner = findViewById(R.id.semesterSpinner);

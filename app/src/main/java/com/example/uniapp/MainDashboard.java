@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainDashboard extends AppCompatActivity {
     Button studentloginButton, lecturerloginButton, adminloginButton;
 
     EditText usernameEditText, passwordEditText;
