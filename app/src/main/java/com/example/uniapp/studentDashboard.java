@@ -14,7 +14,7 @@ public class studentDashboard extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_student_dashboard);
 
         registrationbtn = findViewById(R.id.registrationbtn);
         registeredbtn = findViewById(R.id.registeredbtn);
@@ -25,7 +25,7 @@ public class studentDashboard extends AppCompatActivity {
         registrationbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), MainActivity3.class);
+                Intent intent = new Intent(getApplicationContext(), registerationDashboard.class);
                 startActivity(intent);
             }
         });
