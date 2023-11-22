@@ -15,10 +15,10 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/course2edit" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/course1edit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="107dp"
@@ -54,7 +54,7 @@
         app:layout_constraintTop_toBottomOf="@+id/gradesbtn" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/course2edit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="126dp"
@@ -67,6 +67,6 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/course1edit" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

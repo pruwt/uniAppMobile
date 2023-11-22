@@ -14,7 +14,7 @@ public class registerationDashboard extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main3);
+        setContentView(R.layout.activity_registration_courses);
 
         register1btn = findViewById(R.id.register1btn);
         register2btn = findViewById(R.id.register2btn);

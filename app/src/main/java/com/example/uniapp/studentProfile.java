@@ -15,7 +15,7 @@ public class studentProfile extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_dashboard);
+        setContentView(R.layout.activity_student_profile);
 
         buttonSave = findViewById(R.id.buttonSave);
         buttonHome = findViewById(R.id.buttonHome);

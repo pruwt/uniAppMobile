@@ -15,7 +15,7 @@ public class adminDashboard extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_student_profile);
+        setContentView(R.layout.activity_admin);
 
         btnRegister = findViewById(R.id.btnRegister);
         btnSummary = findViewById(R.id.btnSummary);

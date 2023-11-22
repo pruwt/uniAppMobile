@@ -17,7 +17,7 @@ public class MainDashboard extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_dashboard);
 
         studentloginButton = findViewById(R.id.studentloginButton);
         lecturerloginButton = findViewById(R.id.lecturerloginButton);
@@ -33,7 +33,7 @@ public class MainDashboard extends AppCompatActivity {
                 String password = passwordEditText.getText().toString();
 
                 // Proceed to the next activity
-                Intent intent = new Intent(getApplicationContext(), MainActivity2.class);
+                Intent intent = new Intent(getApplicationContext(), studentDashboard.class);
                 intent.putExtra("USERNAME", username);
                 intent.putExtra("PASSWORD", password);
                 startActivity(intent);
